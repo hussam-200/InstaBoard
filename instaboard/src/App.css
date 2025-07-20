@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+background-color: #48CFCB;
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  background-color: #48CFCB;
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#modeButton {
+  background-color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#modeButton:hover {
+  background-color: #333;
+}
+
+#editCard {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  transition: background-color 0.3s ease;
+}

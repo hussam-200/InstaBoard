@@ -1,0 +1,68 @@
+#card {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0px 3px 9px #48CFCB;
+}
+
+#card.dark {
+    background-color: #333;
+    color: white;
+}
+
+#infoCard p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+#infoCard img {
+    border-radius: 50%;
+    border: 2px solid #48CFCB;
+    margin-top: 10px;
+}
+
+#butto,
+#button {
+    margin-top: 8px;
+    margin-right: 4px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+#butto {
+    background-color: #ff5c5c;
+    color: white;
+}
+
+#button {
+    background-color: #48CFCB;
+    color: white;
+}
+
+#butto:hover {
+    background-color: #e04a4a;
+}
+
+#button:hover {
+    background-color: #3ab8b3;
+}
+
+#card {
+    background-color: white;
+    color: black;
+    /* ...other styles... */
+}
+
+#card.dark {
+    background-color: #222;
+    color: white;
+}
