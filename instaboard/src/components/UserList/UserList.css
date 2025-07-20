@@ -1,0 +1,35 @@
+
+#editCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+
+#editCard.dark {
+  background-color: #1e1e1e;
+}
+
+
+#buttonload {
+  padding: 12px 24px;
+  margin-top: 30px;
+  background-color: #48CFCB;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#buttonload:hover {
+  background-color: #38b9b6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
